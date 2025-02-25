@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+}
+
+.default {
+    width: 100vw;
+    height: 90vh;
+    background: rgb(131, 40, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form {
+    width: 500px;
+    height: 500px;
+    background: #fff;
+
+    margin: auto;
+    background-color: #f3bfdd;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 90px;
+    color: #a55282;
+    padding: 2px 0 20px 0;
+    font-weight: lighter;
+    font-family: "Sigmar", serif;
+}
+
+main {
+    text-align: center;
+    margin: 0px 0;
+    justify-content: center;
+}
+
+input[type="user"] {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 30px;
+    border: #ffffff;
+    height: 20px;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Outfit", serif;
+}
+
+input[type="user"]:hover {
+    background-color: #a55282;
+    transition: 0.3s;
+    border: none
+}
+
+input[type="password"] {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    height: 20px;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Outfit", serif;
+    font-weight: normal;
+}
+
+input[type="password"]:hover {
+    background-color: #a55282;
+    transition: 0.3s;
+    border: none;
+}
+
+button {
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Outfit", serif;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #a55282;
+    color: #ffffff;
+    border: #ffd5f6;
+    transition: 0.2s;
+    font-size: 19px;
+}
+
+button:active {
+    transform: translateZ(10px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+button::after {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
